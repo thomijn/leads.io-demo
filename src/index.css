@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(218,217,233);
+  background: linear-gradient(180deg, rgba(218,217,233,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
